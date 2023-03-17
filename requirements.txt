@@ -1,2 +1,2 @@
 pickles
-scikitlearn
+scikit-learn
