@@ -1,8 +1,8 @@
 import streamlit as st
 import pickle
 
-nu = st.number_input('Input Temperature')
 st.title('Revenue Prediction')
+nu = st.number_input('Input Temperature')
 model = pickle.load(open('model.pickle', "rb"))
 
 if st.button('Predict'):
