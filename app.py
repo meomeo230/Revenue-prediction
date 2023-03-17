@@ -1,3 +1,4 @@
+import streamlit as st
 import pickle
 
 nu = st.number_input('Input Temperature')
