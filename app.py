@@ -1,4 +1,3 @@
-import scikitlearn
 import pickle
 
 a = st.number_input('Input Temperature')
